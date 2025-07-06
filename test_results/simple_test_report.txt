@@ -1,0 +1,25 @@
+test_demo_files_exist (__main__.TestBasicSetup.test_demo_files_exist)
+Test that demo files are present ... ok
+test_documentation_exists (__main__.TestBasicSetup.test_documentation_exists)
+Test that documentation files exist ... ok
+test_env_file_exists (__main__.TestBasicSetup.test_env_file_exists)
+Test that environment configuration file exists ... ok
+test_requirements_file_exists (__main__.TestBasicSetup.test_requirements_file_exists)
+Test that requirements file exists and has expected packages ... ok
+test_virtual_environment_exists (__main__.TestBasicSetup.test_virtual_environment_exists)
+Test that virtual environment is properly set up ... ok
+test_simple_demo_runs (__main__.TestDemoExecution.test_simple_demo_runs)
+Test that simple demo runs without errors ... ok
+test_dotenv_import (__main__.TestImportsInVenv.test_dotenv_import)
+Test that python-dotenv can be imported in venv ... ok
+test_matplotlib_import (__main__.TestImportsInVenv.test_matplotlib_import)
+Test that matplotlib can be imported in venv ... ok
+test_numpy_import (__main__.TestImportsInVenv.test_numpy_import)
+Test that numpy can be imported in venv ... ok
+test_replicate_import (__main__.TestImportsInVenv.test_replicate_import)
+Test that replicate can be imported in venv ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.430s
+
+OK

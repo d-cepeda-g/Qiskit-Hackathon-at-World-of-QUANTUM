@@ -1,0 +1,31 @@
+test_simple_demo_execution (__main__.TestDemoScripts.test_simple_demo_execution)
+Test that simple demo can be executed ... ok
+test_complete_ai_workflow (__main__.TestIntegrationWorkflow.test_complete_ai_workflow)
+Test a complete AI-enhanced workflow ... ok
+test_ai_helper_initialization (__main__.TestQuantumAIHelper.test_ai_helper_initialization)
+Test that QuantumAIHelper can be initialized ... skipped 'Qiskit not available, skipping QuantumAIHelper tests'
+test_circuit_optimization (__main__.TestQuantumAIHelper.test_circuit_optimization)
+Test circuit optimization suggestions ... skipped 'Qiskit not available, skipping circuit optimization test'
+test_concept_explanation (__main__.TestQuantumAIHelper.test_concept_explanation)
+Test AI concept explanation functionality ... skipped 'Qiskit not available, skipping concept explanation test'
+test_environment_loading (__main__.TestReplicateIntegration.test_environment_loading)
+Test environment variable loading ... ok
+test_error_handling_api_failure (__main__.TestReplicateIntegration.test_error_handling_api_failure)
+Test error handling when API call fails ... ok
+test_error_handling_no_token (__main__.TestReplicateIntegration.test_error_handling_no_token)
+Test error handling when no API token is provided ... ok
+test_package_imports (__main__.TestReplicateIntegration.test_package_imports)
+Test that all required packages can be imported ... ok
+test_replicate_image_generation (__main__.TestReplicateIntegration.test_replicate_image_generation)
+Test image generation functionality ... ok
+test_replicate_text_generation (__main__.TestReplicateIntegration.test_replicate_text_generation)
+Test text generation functionality ... ok
+test_api_token_validation (__main__.TestUtilityFunctions.test_api_token_validation)
+Test API token validation ... ok
+test_model_name_validation (__main__.TestUtilityFunctions.test_model_name_validation)
+Test model name format validation ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.077s
+
+OK (skipped=3)

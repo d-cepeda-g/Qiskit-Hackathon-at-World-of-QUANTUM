@@ -1,5 +1,55 @@
 # Welcome to the Qiskit Hackathon at World of QUANTUM
 
+## 🏠 Running Locally
+
+To run these Qiskit exercises on your local machine:
+
+### Quick Start
+```bash
+# 1. Install dependencies and setup environment
+python3 setup_local.py
+
+# 2. Start Jupyter notebooks
+./start_local.sh
+```
+
+### Manual Setup
+If you prefer manual setup:
+
+```bash
+# Option 1: Using virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+jupyter nbextension enable --py widgetsnbextension
+
+# Option 2: System-wide install (if allowed)
+pip install -r requirements.txt --user
+jupyter nbextension enable --py widgetsnbextension
+
+# Start Jupyter in the Exercises directory
+cd Exercises
+jupyter notebook
+```
+
+### Requirements
+- Python 3.8 or higher
+- pip (Python package installer)
+
+### What's Included
+- **Easy Exercises**: `Easy_Single_Qubit_Gates.ipynb`, `Easy_Multiple_Qubit_Gates.ipynb`
+- **Medium Exercises**: `Medium_Single_Qubit_Gates.ipynb`, `Medium_Multiple_Qubit_Gates.ipynb`
+- **Validation Functions**: Automatic checking of your solutions
+- **Visualization**: Bloch sphere and circuit diagrams
+
+### IBM Quantum Access
+For real quantum hardware access:
+1. Create account at [IBM Quantum](https://quantum-computing.ibm.com/)
+2. Get your API token
+3. Use `IBMQ.save_account('your_token_here')` in a notebook
+
+---
+
 ## 📄  [Click here to download the In-Person Attendee Guide](https://github.com/qiskit-community/Qiskit-Hackathon-at-World-of-QUANTUM/raw/main/Attendee%20Guide%20In-Person.pdf)
 
 ### About

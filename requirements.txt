@@ -1,0 +1,17 @@
+# Qiskit and quantum computing dependencies
+qiskit
+qiskit-aer
+qiskit-ibm-provider
+
+# Scientific computing and visualization
+numpy
+matplotlib
+scipy
+
+# Jupyter environment
+jupyter
+notebook
+ipywidgets
+
+# Additional utilities
+pillow

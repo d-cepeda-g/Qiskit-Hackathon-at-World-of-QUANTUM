@@ -1,0 +1,57 @@
+{
+  "currentVersionId": 1703875200000,
+  "versions": [
+    {
+      "id": 1,
+      "title": "The Original Tale",
+      "content": "In a small village nestled between rolling hills and whispering woods, there lived a young baker named Elena. Every morning, she would rise before dawn to knead dough and fill her ovens with the day's bread. But Elena harbored a secret—she could hear the stories that ingredients whispered to her.\n\nThe flour spoke of golden wheat fields dancing in summer breezes. The yeast bubbled with tales of ancient fermentation magic. And the salt... the salt carried memories of distant oceans and forgotten civilizations.\n\nOne particularly foggy morning, as Elena mixed her usual recipe, the ingredients began telling her something different. Something urgent. Something that would change her life forever.",
+      "wordCount": 118,
+      "charCount": 690,
+      "created": "2024-12-29T09:00:00.000Z",
+      "modified": "2024-12-29T09:30:00.000Z",
+      "parentId": null
+    },
+    {
+      "id": 1703875200000,
+      "title": "The Fantasy Version",
+      "content": "In the mystical realm of Aethermoor, where magic flowed like rivers through the land, there lived a young enchantress named Elena. Every dawn, she would rise to weave spells into her enchanted bakery, where ordinary ingredients transformed into magical sustenance.\n\nThe moonwheat flour shimmered with starlight, carrying visions of celestial harvests. The phoenix yeast danced with flames of creation, whispering secrets of eternal life. And the crystal salt—harvested from the Tears of the Ocean Goddess—held the power to preserve memories across millennia.\n\nBut on this fog-shrouded morning, as Elena cast her daily bread-blessing ritual, the magical ingredients began resonating with an ancient prophecy. The elements spoke in unison of a darkness approaching, and of Elena's destiny as the Baker of Worlds—the one who would knead hope into the very fabric of reality.",
+      "wordCount": 143,
+      "charCount": 834,
+      "created": "2024-12-29T10:00:00.000Z",
+      "modified": "2024-12-29T10:45:00.000Z",
+      "parentId": 1
+    },
+    {
+      "id": 1703879400000,
+      "title": "The Sci-Fi Adaptation",
+      "content": "In the year 2387, aboard the generation ship *New Horizon*, Elena-7 maintained the protein synthesis bay that fed the ship's 50,000 inhabitants. Her neural implants allowed her to interface directly with the molecular assemblers, reading the quantum signatures of each synthetic nutrient batch.\n\nThe lab-grown proteins carried data streams from their original Earth DNA sequences. The engineered yeasts contained compressed archives of pre-exodus brewing traditions. And the processed sodium compounds—refined from asteroid mining operations—held crystallized memories of ancient terrestrial oceans.\n\nBut during the morning cycle, as Elena-7 calibrated the daily nutrition production, the quantum-entangled ingredients began transmitting anomalous data patterns. The molecular signatures were spelling out coordinates—not to any known star system, but to something far stranger. Something that suggested their hundred-year journey to Kepler-442b might not be humanity's final destination after all.",
+      "wordCount": 146,
+      "charCount": 889,
+      "created": "2024-12-29T11:15:00.000Z",
+      "modified": "2024-12-29T11:50:00.000Z",
+      "parentId": 1
+    },
+    {
+      "id": 1703883000000,
+      "title": "The Mystery Thriller",
+      "content": "Detective Elena Rodriguez had seen her share of strange cases in twenty years with the Metro PD, but nothing had prepared her for the Baker Street murders. Three victims, all found in their kitchens, all surrounded by the same mysterious ingredients arranged in precise patterns.\n\nThe forensics team found no fingerprints, no DNA, no conventional evidence. But Elena noticed something the others missed—the way the flour seemed to form symbols, the yeast cultures that shouldn't have been possible to cultivate, and the salt formations that looked almost... deliberate.\n\nAs she stood in the fourth victim's kitchen that foggy morning, Elena realized she wasn't just investigating murders. The killer was leaving a message, written in the language of baking. And somehow, impossibly, Elena found she could read it. The ingredients were telling her a story—about a secret organization, about ancient knowledge, and about why she was the only one who could see the truth.\n\nThe question was: would she live long enough to decode the final message?",
+      "wordCount": 174,
+      "charCount": 1008,
+      "created": "2024-12-29T12:30:00.000Z",
+      "modified": "2024-12-29T13:00:00.000Z",
+      "parentId": 1
+    },
+    {
+      "id": 1703886600000,
+      "title": "The Alternate Ending",
+      "content": "In a small village nestled between rolling hills and whispering woods, there lived a young baker named Elena. Every morning, she would rise before dawn to knead dough and fill her ovens with the day's bread. But Elena harbored a secret—she could hear the stories that ingredients whispered to her.\n\nThe flour spoke of golden wheat fields dancing in summer breezes. The yeast bubbled with tales of ancient fermentation magic. And the salt... the salt carried memories of distant oceans and forgotten civilizations.\n\nOne particularly foggy morning, as Elena mixed her usual recipe, the ingredients began telling her something different. Something urgent. But instead of fear, Elena felt a surge of joy. The ingredients weren't warning her of danger—they were inviting her to join them.\n\nWithout hesitation, Elena stepped into her own mixing bowl, feeling herself dissolve into flour and hope and ancient magic. She became part of every loaf, every meal, every moment of nourishment. The village never went hungry again, and travelers spoke of bread that tasted like dreams and felt like coming home.\n\nSometimes, the greatest adventure is becoming something larger than yourself.",
+      "wordCount": 190,
+      "charCount": 1094,
+      "created": "2024-12-29T14:00:00.000Z",
+      "modified": "2024-12-29T14:20:00.000Z",
+      "parentId": 1
+    }
+  ],
+  "exportDate": "2024-12-29T15:00:00.000Z",
+  "appVersion": "1.0.0"
+}

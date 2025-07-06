@@ -1,0 +1,186 @@
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Build generated
+build/
+DerivedData/
+
+# Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development
+.env.production
+GoogleService-Info.plist
+GoogleService-Info-Dev.plist
+GoogleService-Info-Prod.plist
+
+# API Keys and Secrets
+secrets.plist
+config.plist
+**/APIKeys.swift
+**/Secrets.swift
+
+# Firebase
+firebase-debug.log
+.firebase/
+
+# Temporary files
+*.tmp
+*.temp
+*~.nib
+local.properties
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+test-results/
+coverage/
+*.lcov
+
+# Certificates and Provisioning Profiles
+*.p12
+*.mobileprovision
+*.cer
+*.certSigningRequest
+
+# App Store Connect API Keys
+AuthKey_*.p8
+
+# Simulator recordings
+*.mov
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Backup files
+*.backup
+*.bak
+
+# Cache directories
+.cache/
+node_modules/
+
+# Temporary documentation
+docs/build/
+
+# Local configuration overrides
+config.local.swift
+settings.local.plist
+
+# Performance and profiling files
+*.trace
+*.dtps
+*.instruments
+
+# Custom project-specific files
+TODO.md
+NOTES.md
+scratch/
+temp/
+
+# Firebase Functions (if added later)
+functions/node_modules/
+functions/.env
+
+# Database files
+*.sqlite
+*.db
+
+# Generated documentation
+Documentation/
+
+# Xcode Cloud
+*.xcode-cloud/
+
+# App Icon Generator files
+AppIcons/

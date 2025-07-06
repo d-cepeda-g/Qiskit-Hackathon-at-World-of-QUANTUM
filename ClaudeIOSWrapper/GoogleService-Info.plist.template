@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Replace these values with your actual Firebase project configuration -->
+    <!-- Download the real GoogleService-Info.plist from Firebase Console -->
+    
+    <key>CLIENT_ID</key>
+    <string>YOUR_CLIENT_ID_HERE.apps.googleusercontent.com</string>
+    
+    <key>REVERSED_CLIENT_ID</key>
+    <string>com.googleusercontent.apps.YOUR_REVERSED_CLIENT_ID_HERE</string>
+    
+    <key>API_KEY</key>
+    <string>YOUR_API_KEY_HERE</string>
+    
+    <key>GCM_SENDER_ID</key>
+    <string>YOUR_GCM_SENDER_ID_HERE</string>
+    
+    <key>PLIST_VERSION</key>
+    <string>1</string>
+    
+    <key>BUNDLE_ID</key>
+    <string>com.yourcompany.claudewrapper</string>
+    
+    <key>PROJECT_ID</key>
+    <string>your-firebase-project-id</string>
+    
+    <key>STORAGE_BUCKET</key>
+    <string>your-firebase-project-id.appspot.com</string>
+    
+    <key>IS_ADS_ENABLED</key>
+    <false/>
+    
+    <key>IS_ANALYTICS_ENABLED</key>
+    <false/>
+    
+    <key>IS_APPINVITE_ENABLED</key>
+    <true/>
+    
+    <key>IS_GCM_ENABLED</key>
+    <true/>
+    
+    <key>IS_SIGNIN_ENABLED</key>
+    <true/>
+    
+    <key>GOOGLE_APP_ID</key>
+    <string>1:YOUR_GCM_SENDER_ID:ios:YOUR_GOOGLE_APP_ID</string>
+    
+    <key>DATABASE_URL</key>
+    <string>https://your-firebase-project-id-default-rtdb.firebaseio.com/</string>
+</dict>
+</plist>
+
+<!--
+SETUP INSTRUCTIONS:
+
+1. Go to https://console.firebase.google.com/
+2. Create a new project or select existing one
+3. Add an iOS app to your project
+4. Enter your bundle identifier (e.g., com.yourcompany.claudewrapper)
+5. Download the GoogleService-Info.plist file
+6. Replace this template file with the downloaded file
+7. Make sure the file is added to your Xcode target
+
+REQUIRED FIREBASE SERVICES:
+- Authentication (Email/Password provider)
+- Firestore Database
+- Cloud Storage (optional, for future features)
+
+FIREBASE AUTHENTICATION SETUP:
+1. Go to Authentication > Sign-in method
+2. Enable Email/Password provider
+3. Configure authorized domains if needed
+
+FIRESTORE SETUP:
+1. Go to Firestore Database
+2. Create database (start in test mode, then configure rules)
+3. Set up security rules for user data protection
+
+SECURITY RULES EXAMPLE:
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /user_logs/{logId} {
+      allow read, write: if request.auth != null && 
+        request.auth.uid == resource.data.userID;
+    }
+    match /users/{userId} {
+      allow read, write: if request.auth != null && 
+        request.auth.uid == userId;
+    }
+  }
+}
+
+WARNING:
+- Never commit the actual GoogleService-Info.plist to version control
+- Add GoogleService-Info.plist to your .gitignore file
+- Keep your Firebase configuration secure
+-->
